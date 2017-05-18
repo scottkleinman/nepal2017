@@ -64,7 +64,7 @@ It can take time to get familiar with git and GitHub, but it is definitely worth
 
 ### Command-Line Access
 
-Nothing to download here. These are just some links to how to access and use the command prompt. In Windows, press the `&#8862; + R` to bring up the **Run** box and type `cmd.exe` into the text field. Then hit the `Enter` key. A black command prompt window should appear. You can also type `&#8862; + X` and then `C` for short. On a Mac, the command prompt is called the **terminal**. To access it, run the cursor to the top of the screen to expose the menu bar. Then click the Spotlight icon (magnifying glass) at the top right. Alternatively, you can press `&#8984; + Space`. Start typing "terminal" in the search field. After two or three characters, the terminal icon will appear.
+Nothing to download here. These are just some links to how to access and use the command prompt. In Windows, press the &#8862; + `R` to bring up the **Run** box and type `cmd.exe` into the text field. Then hit the `Enter` key. A black command prompt window should appear. You can also type `&#8862; + X` and then `C` for short. On a Mac, the command prompt is called the **terminal**. To access it, run the cursor to the top of the screen to expose the menu bar. Then click the Spotlight icon (magnifying glass) at the top right. Alternatively, you can press `&#8984; + Space`. Start typing "terminal" in the search field. After two or three characters, the terminal icon will appear.
 
 ### Text Analysis Tools
 
