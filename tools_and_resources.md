@@ -16,6 +16,8 @@ Creating local DH communities is also important. One way to do this is to organi
 
 [HASTAC](https://www.hastac.org/) is a social media platform that encompasses the DH community and sister communities in the arts, digital writing, and digital pedagogy.
 
+"The Humanities" is a western, probably mostly American, construct which has different concerns expressions in different parts of the world. That said, the [4Humanities](http://4humanities.org) organisation attempts to advocate for the study of what broadly falls under the term "humanities" using the resources of the Digital Humanities community.
+
 The DH community _lives_ on Twitter. See the Social Media section for accounts to follow.
 
 ### General DH Tools and Resources
