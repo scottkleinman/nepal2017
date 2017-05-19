@@ -10,7 +10,13 @@ The [Association of Digital Humanities Organisations (ADHO)](http://adho.org/) i
 
 The Slack DH community is another option for getting support (see Team Communication Tools below). There is also an increasing number of tutorials in DH tools and techniques available on the [Programming Historian website](http://programminghistorian.org/).
 
+[Digital Humanities Now](http://digitalhumanitiesnow.org/) is an experimental, edited publication that highlights and distributes informally published digital humanities scholarship and resources from the open web. Individuals can volunteer to be Editors-at-Large for set periods. This is a great way to learn about what is happening in the world of DH.
+
 Creating local DH communities is also important. One way to do this is to organise a [THATCamp](http://thatcamp.org/) (The Humanities and Technology Camp). Guidelines for organising a THATCamp can be found [here](http://thatcamp.org/help/organize/).
+
+[HASTAC](https://www.hastac.org/) is a social media platform that encompasses the DH community and sister communities in the arts, digital writing, and digital pedagogy.
+
+The DH community _lives_ on Twitter. See the Social Media section for accounts to follow.
 
 ### General DH Tools and Resources
 
@@ -140,7 +146,7 @@ Websites created on localhost have one-way access to the internet. They can read
 
 ### Hosting on the Internet
 
-Most internet service providers (ISPs) provide access to PHP and MySQL out of the box. They typically also have easy methods for installing Wordpress. In general, you will want to pay for hosting, which typically also allows you to purchase your own domain (e.g. "http://scottkleinman.com"). But there are free alternatives that are worth considering. [Wordpress.com](https://wordpress.com/) provides free Wordpress hosting, although it has severe limitations on how much you can customise your site. Another option is [Humanities Commons](https://hcommons.org/), which was created by the DH community. Humanities Commons provides fully customisable Wordpress installations for free, and it also offers a digital content repository service (see Repositories below). If you just want to host web pages, [GitHub Pages](https://pages.github.com/) is an option. All of these services will assign your website an address like "https://yourname.hcommons.org/", although Wordpress.com and GitHub pages provide the option to use your own domain if you have purchased it separately. Ownership of domain names typically has to be renewed every year (although it is automatic, unless you cancel). 
+Most internet service providers (ISPs) provide access to PHP and MySQL out of the box. They typically also have easy methods for installing Wordpress from [Wordpress.org](https://wordpress.com/). In general, you will want to pay for hosting, which typically also allows you to purchase your own domain (e.g. "http://scottkleinman.com"). But there are free alternatives that are worth considering. [Wordpress.com](https://wordpress.com/) provides free Wordpress hosting, although it has severe limitations on how much you can customise your site. Another option is [Humanities Commons](https://hcommons.org/), which was created by the DH community. Humanities Commons provides fully customisable Wordpress installations for free, and it also offers a digital content repository service (see Repositories below). If you just want to host web pages, [GitHub Pages](https://pages.github.com/) is an option. All of these services will assign your website an address like "https://yourname.hcommons.org/", although Wordpress.com and GitHub pages provide the option to use your own domain if you have purchased it separately. Ownership of domain names typically has to be renewed every year (although it is automatic, unless you cancel). 
 
 Hosting Python is a little bit tricky, as most internet providers do not provide access to Python out of the box. I recommend [Reclaim Hosting](http://reclaimhosting.com/) for this in part because I have got Python working successfully on their system. Like Humanities Commons, Reclaim Hosting was born in the academic community and is dedicated to academic usage. For that reason, I also recommend it even if you want to host static web pages or Wordpress. Reclaim Hosting also allows you to host your own version of Scalar (see Blogs, Content Management Systems, and Digital Exhibit Platforms).
 
@@ -151,4 +157,40 @@ There are many commercial ISPs which may offer services comparable to Reclaim Ho
 A digital repository is a cloud storage system intended to preserve content and making it discoverable. This can include traditional publications saved as PDFs, images, or data sets. Many universities are encouraging faculty to deposit research in their own institutional repositories. But the [Humanities Commons](https://hcommons.org/) CORE repository makes a digital repository available for all Humanities scholars and students, regardless of their institutional affiliation. This makes for an excellent alternative to institutional repositories, which cannot be support by all institutions of higher education.
 
 Another option is [Zenodo](https://zenodo.org/), originally created for CERN, the European Organization for Nuclear Research. Zenodo automatically assigns a DOI (Digital Object Identifier) to your work, which makes it easy to cite. In Digital Humanities Research, it is probably best used for software and data sets.
+
+### Blogs, Content Management Systems, and Digital Exhibit Platforms
+
+The two most dominant blogging platforms are probably Wordpress and [Blogger](https://support.google.com/blogger/answer/1623800?hl=en) (run by Google). Both create a subdomain for your on wordpress.com or blogspot.com, although Wordpress will allow you to use you own domain name (for a price on Wordpress.com), if you have one. See the comments under Hosting on the Internet and the separate Installing Wordpress section. Other blogging platforms such as [Medium.com](https://medium.com/) are worth looking at.
+
+Most blogs are built around content management systems (CMS), which store content in a database, retrieve on demand, and build web pages around it. The [Drupal](https://www.drupal.org/) content management system is often used in the DH community for more sophisticated CMS-based applications. I can't recommend it because it is challenging to learn, but Quinn Dombrowski's recently published _[Drupal for Humanists](http://drupal.forhumanists.org/)__ promimises to make getting started easier.
+
+Some other CMS platforms are more specialised. [Scalar](http://scalar.usc.edu/scalar/) is a tool for creating non-linear, multimedia rich websites. You can use the free hosting service provided by the University of Southern California or host it yourself (Reclaim Hosting has an easy installation process; see Hosting on the Internet for details).
+
+[Omeka](https://omeka.org/) is a platform for creating online digital exhibits. There is a parallel service, [Omeka.net](http://www.omeka.net/), which offers free and hosted plans for Omeka websites.
+
+### Linked Data and Application Programming Interfaces (APIs)
+
+Application Programming Interfaces (APIs) are set up by organisations that host content to allow the public to pull that content into their own applications. For instance, you might have a website that allows the user to set some criteria for grabbing images from a large database and then inserts them into the website. Since these images are stored by the host institution and not by your website, they are considered linked data. The term "linked open data" refers to content that is open access. [Serendip-o-matic](http://serendipomatic.org) and [Mirador](http://projectmirador.org/) are examples of tools that use linked data. The tools in the Blogs, Content Management Systems, and Digital Exhibit Platforms section have APIs, and the use of linked data in DH is growing.
+
+### Installing Wordpress
+
+If you are using a hosted service, they may have Wordpress pre-installed or have a one-click installation process. If you want to develop locally or install Wordpress yourself, it is not hard. If you are developing on your own computer, install XAMPP (see under PHP). Download Wordpress [here](https://wordpress.org/download/). Unzip it and place the Wordpress folder inside your “htdocs” folder. Make sure that MySQL is running in the XAMPP control panel (MySQL is the database used by Wordpress). Then follow the installation instructions [here](https://codex.wordpress.org/Installing_WordPress). When you finish, you should have a working version of Wordpress that has none of the restrictions of Wordpress.com. Once you have configured it the way you want, you can copy it to an internet-facing server. If you are starting on a hosted service, you normally just unzip the files there.
+
+### Social Media
+
+Twitter is probably the best way to learn about DH. Follow some prominent DH personalities or projects, and click on the links they provide. Here are some accounts to follow (not exhaustive): [TBD].
+
+Many DH scholars have blogs on which they discuss ongoing research (links to new posts will often be posted on Twitter). Here are some examples: [TBD]
+
+### Visualisation Tools
+
+- [Gephi](https://gephi.org/) for network visualisation
+
+### Digital Editing
+
+- [TEI](http://tei-c.org/)
+- [TEI by Example](http://teibyexample.org/)
+- [TEI Boilerplate](http://dcl.ils.indiana.edu/teibp/)
+
+
 
