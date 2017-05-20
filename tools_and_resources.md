@@ -196,6 +196,8 @@ Many DH scholars have blogs on which they discuss ongoing research (links to new
 - [Stephen Ramsay](http://stephenramsay.us/)
 - [Julia Flanders](https://juliaflanders.wordpress.com/)
 - [Bethany Nowviskie](http://nowviskie.org/)
+- [Melissa Terras](https://melissaterras.org/)
+- [Brian Croxall](http://www.briancroxall.net/)
 
 (Needs some non US-based additions)
 
@@ -207,6 +209,13 @@ For lack of a better place, here are some book resources:
 ### Visualisation Tools
 
 - [Gephi](https://gephi.org/) for network visualisation
+- [Palladio](https://gephi.org/) for network visualisation
+- [Voyant Tools](http://voyant-tools.org/)
+- [Lexos](http://lexos.wheatoncollege.edu/)
+- [Palladio](http://hdlab.stanford.edu/palladio/)
+- [TimelineJS](http://timeline.knightlab.com/)
+- [Historypin](http://www.historypin.com/)
+- [ViewShare](http://viewshare.org/)
 
 ### Digital Editing
 
