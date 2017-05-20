@@ -1,4 +1,4 @@
-# Digital Humanities Tools and Resources
+# Digital Humanities Tools and Resources for Nepal 2017
 
 ## Introduction
 
@@ -222,6 +222,8 @@ For lack of a better place, here are some book resources:
 - [TEI](http://tei-c.org/)
 - [TEI by Example](http://teibyexample.org/)
 - [TEI Boilerplate](http://dcl.ils.indiana.edu/teibp/)
+
+5/20/2017 11:24:10 AM
 
 
 
