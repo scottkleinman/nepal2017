@@ -182,7 +182,27 @@ If you are using a hosted service, they may have Wordpress pre-installed or have
 
 Twitter is probably the best way to learn about DH. Follow some prominent DH personalities or projects, and click on the links they provide. Here are some accounts to follow (not exhaustive): [TBD].
 
-Many DH scholars have blogs on which they discuss ongoing research (links to new posts will often be posted on Twitter). Here are some examples: [TBD]
+Many DH scholars have blogs on which they discuss ongoing research (links to new posts will often be posted on Twitter). Here are some examples:
+
+- [Dan Cohen](http://www.dancohen.org/)
+- [Kathleen Fitzpatrick](http://www.plannedobsolescence.net/)
+- [Mark Sample](http://www.samplereality.com/)
+- [Tom Scheinfeldt](http://foundhistory.org/)
+- [Miriam Posner](http://miriamposner.com/blog/)
+- [Ted Underwood](https://tedunderwood.com/)
+- [Ben Schmidt](http://sappingattention.blogspot.com/)
+- [Matthew Jockers](http://www.matthewjockers.net/)
+- [Scott Weingart](http://scottbot.net/)
+- [Stephen Ramsay](http://stephenramsay.us/)
+- [Julia Flanders](https://juliaflanders.wordpress.com/)
+- [Bethany Nowviskie](http://nowviskie.org/)
+
+(Needs some non US-based additions)
+
+For lack of a better place, here are some book resources:
+- [Debates in the Digital Humanities](http://dhdebates.gc.cuny.edu/)
+- [A Companion to Digital Humanities](http://www.digitalhumanities.org/companion/)
+- [A New Companion to Digital Humanities, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-1118680596.html) (may be available online with institutional access)
 
 ### Visualisation Tools
 
