@@ -1,6 +1,6 @@
 # Installing Wordpress Locally
 
-The basic instructions for installing Wordpress are [here](https://codex.wordpress.org/Installing_WordPress). This web page is a little complicated because they provide instructions for installing in different environments. The instructions below provide a streamlined account of how you would install Wordpress locally with XAMPP. Local installations are good for developing your blog. When you are ready to install in a hosted environment, the internet service provider will likely have a more streamlined method. However, understanding how to install Wordpress locally will help you with whatever procedures they have in place.
+The basic instructions for installing Wordpress are [here](https://codex.wordpress.org/Installing_WordPress). This web page is a little complicated because they provide instructions for installing in different environments. The instructions below provide a streamlined account of how you would install Wordpress locally with XAMPP. Local installations are good for developing your blog. When you are ready to install in a hosted environment, the internet service provider will likely have a more streamlined method. However, understanding how to install Wordpress locally will help you with whatever procedures they have in place. See also [Why not just use Wordpress.com?]() at the end of this document.
 
 ## Start by getting all the software in place
 
@@ -47,3 +47,18 @@ Replace _database_name_here_ with the name of you database (e.g. _myblog_). Repl
 
 4. You should now be given a login prompt. Enter your username and password, and you should arrive at the Wordpress dashboard.
 
+## Why not just use Wordpress.com?
+
+The terminology for the two types of Wordpress can be a little confusing. Wordpress itself is open source blog software. You can download it at Wordpress**.org**. If you do this, you are responsible for hosting the software and for backing up your data. Wordpress**.com** is a commercial hosting service that will backup your data but will not allow you to access all features of Wordpress. In essence, Wordpress.org provides greater freedom, but with greater freedom comes greater responsibility. Here are the major differences in what you get:
+
+On Wordpress.com you’ll get a domain name like `myblog.wordpress.com`. With Wordpress.org, you will typically pay for whatever domain name you want, e.g. `scottkleinman.com`. Your blog will then generally be found at something like `scottkleinman.com/myblog`. That is, "wordpress" will not be in the address.
+
+On Wordpress.com you are able to choose from around 100 different blog themes with a few limited customisation options. With Wordpress.org, you are able to choose from over 1500 themes (and the number is growing). You are also able to customise them fully.
+
+Wordpress.org has thousands of plugins which allow you to extend the functionality of Wordpress. Wordpress.com does not allow you to extend the functionality. It also does not allow you to run your own Javascript, which can provide functionality for user interaction. My students have found themselves unable to do things they wanted to do using Wordpress.com.
+
+Free Wordpress.com accounts have limits on file storage associated with your blog. Other services used for hosting Wordpress using Wordpress.org.
+
+You can run Wordpress.org locally on your own computer without a hosted account. This is useful for designing and developing your blog before you make it visible on the internet.
+
+For a more detailed account of the differences between the two types of Wordpress, see [https://startbloggingonline.com/wordpress-com-vs-wordpress-org-whats-the-difference/](https://startbloggingonline.com/wordpress-com-vs-wordpress-org-whats-the-difference/).
