@@ -1,6 +1,6 @@
 # Installing Wordpress Locally
 
-The basic instructions for installing Wordpress are [here](https://codex.wordpress.org/Installing_WordPress). This web page is a little complicated because they provide instructions for installing in different environments. The instructions below provide a streamlined account of how you would install Wordpress locally with XAMPP. Local installations are good for developing your blog. When you are ready to install in a hosted environment, the internet service provider will likely have a more streamlined method. However, understanding how to install Wordpress locally will help you with whatever procedures they have in place. See also [Why not just use Wordpress.com?]() at the end of this document.
+The basic instructions for installing Wordpress are [here](https://codex.wordpress.org/Installing_WordPress). This web page is a little complicated because they provide instructions for installing in different environments. The instructions below provide a streamlined account of how you would install Wordpress locally with XAMPP. Local installations are good for developing your blog. When you are ready to install in a hosted environment, the internet service provider will likely have a more streamlined method. However, understanding how to install Wordpress locally will help you with whatever procedures they have in place. See also [Why not just use Wordpress.com?](#whynot) at the end of this document.
 
 ## Start by getting all the software in place
 
@@ -47,6 +47,7 @@ Replace _database_name_here_ with the name of you database (e.g. _myblog_). Repl
 
 4. You should now be given a login prompt. Enter your username and password, and you should arrive at the Wordpress dashboard.
 
+<a name="whynot"></a>
 ## Why not just use Wordpress.com?
 
 The terminology for the two types of Wordpress can be a little confusing. Wordpress itself is open source blog software. You can download it at Wordpress**.org**. If you do this, you are responsible for hosting the software and for backing up your data. Wordpress**.com** is a commercial hosting service that will backup your data but will not allow you to access all features of Wordpress. In essence, Wordpress.org provides greater freedom, but with greater freedom comes greater responsibility. Here are the major differences in what you get:
