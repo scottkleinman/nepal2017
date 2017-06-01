@@ -1,5 +1,7 @@
 # Digital Humanities Tools and Resources for Nepal 2017
 
+**Last update:** 20 May 2017
+
 ## Introduction
 
 This guide provides download links to the major software we will be using for the Fulbright/IACER programme in June 2017. It also provides general links to useful resources.
@@ -17,6 +19,8 @@ Creating local DH communities is also important. One way to do this is to organi
 [HASTAC](https://www.hastac.org/) is a social media platform that encompasses the DH community and sister communities in the arts, digital writing, and digital pedagogy.
 
 "The Humanities" is a western, probably mostly American, construct which has different concerns expressions in different parts of the world. That said, the [4Humanities](http://4humanities.org) organisation attempts to advocate for the study of what broadly falls under the term "humanities" using the resources of the Digital Humanities community.
+
+[The Humanist Listserv](http://dhhumanist.org/membership_form.php)
 
 The DH community _lives_ on Twitter. See the Social Media section for accounts to follow.
 
@@ -85,6 +89,8 @@ It can take time to get familiar with git and GitHub, but it is definitely worth
 ### Command-Line Access
 
 Nothing to download here. These are just some links to how to access and use the command prompt. In Windows, press the &#8862; + `R` to bring up the **Run** box and type `cmd.exe` into the text field. Then hit the `Enter` key. A black command prompt window should appear. You can also type &#8862; + `X` and then `C` for short. On a Mac, the command prompt is called the **terminal**. To access it, run the cursor to the top of the screen to expose the menu bar. Then click the Spotlight icon (magnifying glass) at the top right. Alternatively, you can press &#8984; + `Space`. Start typing "terminal" in the search field. After two or three characters, the terminal icon will appear.
+
+A useful tutorial can be found [here](https://learnpythonthehardway.org/book/appendixa.html).
 
 ### Text Analysis Tools
 
@@ -208,7 +214,7 @@ For lack of a better place, here are some book resources:
 
 ### Visualisation Tools
 
-- [Gephi](https://gephi.org/) for network visualisation
+- [Gephi](https://gephi.org/) for network visualisation. See [Miriam Posner's guide to using Gephi](http://miriamposner.com/dh101f14/wp-content/uploads/2014/11/Creating-a-Network-Graph-with-Gephi.pdf).
 - [Palladio](https://gephi.org/) for network visualisation
 - [Voyant Tools](http://voyant-tools.org/)
 - [Lexos](http://lexos.wheatoncollege.edu/)
@@ -222,8 +228,11 @@ For lack of a better place, here are some book resources:
 - [TEI](http://tei-c.org/)
 - [TEI by Example](http://teibyexample.org/)
 - [TEI Boilerplate](http://dcl.ils.indiana.edu/teibp/)
+- [Catalogue of Digital Editions](https://dig-ed-cat.acdh.oeaw.ac.at/)
 
-5/20/2017 11:24:10 AM
+### Resources for Gephi
+- http://literaturegeek.com/2013/09/09/dataintogephi
+- https://dh.rutgers.edu/networks/
 
 
 

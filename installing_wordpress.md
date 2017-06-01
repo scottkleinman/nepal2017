@@ -2,6 +2,8 @@
 
 The basic instructions for installing Wordpress are [here](https://codex.wordpress.org/Installing_WordPress). This web page is a little complicated because they provide instructions for installing in different environments. The instructions below provide a streamlined account of how you would install Wordpress locally with XAMPP. Local installations are good for developing your blog. When you are ready to install in a hosted environment, the internet service provider will likely have a more streamlined method. However, understanding how to install Wordpress locally will help you with whatever procedures they have in place. See also [Why not just use Wordpress.com?](#whynot) at the end of this document.
 
+Wordpress is generally run on a bundle of software packages called LAMP: This stands for **Linux** (the operating system), **Apache** (the web server), **MySQL** (the database), and PHP (the programming language). Typically, Apache is run on a dedicated server machine, but you can run it locally. The XAMPP distribution is a complete LAMP package that you can download and install on your laptop.
+
 ## Start by getting all the software in place
 
 1. Download and install XAMPP. On Windows, you should install XAMPP to `C:\xampp`. If you have a Mac, your `xampp` folder can go anywhere; just remove `C:\` from the instructions below.
@@ -11,7 +13,7 @@ The basic instructions for installing Wordpress are [here](https://codex.wordpre
 
 ## Next create the database
 
-1. Open a browser and type `localhost/phpmyadmin` in the address bar. phpMyAdmin is XAMPP's database administration tool.
+1. Open a browser and type `localhost/phpmyadmin` in the address bar. **phpMyAdmin** is XAMPP's database administration tool.
 2. Click the `Databases` tab. Under "Create Database", enter a name for your database. For now, it is probably easiest to name it the same thing as your blog, e.g. `myblog`. Pull the "Collation" dropdown to select `utf8_general_ci`. This provides the database information about how to sort English words. For Nepali, you can try `utf8mb4_general_ci` if you start getting strange results.
 3. Click the `Users` tab. Make sure there is a line with the following information:
 
@@ -23,7 +25,7 @@ privilieges: ALL PRIVILEGES
 Grant: Yes
 ```
 
-When you move the blog to the internet, you will have to assign a different user and password to the database, but that's not necessary for a local installation.
+When you move the blog to the internet, you will have to assign a more secure username and password to the database, but that's not necessary for a local installation.
 
 ## Finally, install Wordpress
 
