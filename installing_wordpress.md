@@ -2,8 +2,6 @@
 
 The basic instructions for installing Wordpress are [here](https://codex.wordpress.org/Installing_WordPress). This web page is a little complicated because they provide instructions for installing in different environments. The instructions below provide a streamlined account of how you would install Wordpress locally with XAMPP. Local installations are good for developing your blog. When you are ready to install in a hosted environment, the internet service provider will likely have a more streamlined method. However, understanding how to install Wordpress locally will help you with whatever procedures they have in place. See also [Why not just use Wordpress.com?](#whynot) at the end of this document.
 
-Wordpress is generally run on a bundle of software packages called LAMP: This stands for **Linux** (the operating system), **Apache** (the web server), **MySQL** (the database), and PHP (the programming language). Typically, Apache is run on a dedicated server machine, but you can run it locally. The XAMPP distribution is a complete LAMP package that you can download and install on your laptop.
-
 ## Start by getting all the software in place
 
 1. Download and install XAMPP. On Windows, you should install XAMPP to `C:\xampp`. If you have a Mac, your `xampp` folder can go anywhere; just remove `C:\` from the instructions below.
