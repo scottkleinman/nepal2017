@@ -50,7 +50,8 @@ Replace _database_name_here_ with the name of you database (e.g. _myblog_). Repl
 <a name="whynot"></a>
 ## Why not just use Wordpress.com?
 
-The terminology for the two types of Wordpress can be a little confusing. Wordpress itself is open source blog software. You can download it at Wordpress**.org**. If you do this, you are responsible for hosting the software and for backing up your data. Wordpress**.com** is a commercial hosting service that will backup your data but will not allow you to access all features of Wordpress. In essence, Wordpress.org provides greater freedom, but with greater freedom comes greater responsibility. Here are the major differences in what you get:
+The terminology for the two types of Wordpress can be a little confusing. Wordpress itself is open source blog software. You can download it at Wordpress
+<strong>.org</strong>. If you do this, you are responsible for hosting the software and for backing up your data. Wordpress<strong>.com</strong> is a commercial hosting service that will backup your data but will not allow you to access all features of Wordpress. In essence, Wordpress.org provides greater freedom, but with greater freedom comes greater responsibility. Here are the major differences in what you get:
 
 On Wordpress.com you’ll get a domain name like `myblog.wordpress.com`. With Wordpress.org, you will typically pay for whatever domain name you want, e.g. `scottkleinman.com`. Your blog will then generally be found at something like `scottkleinman.com/myblog`. That is, "wordpress" will not be in the address.
 
