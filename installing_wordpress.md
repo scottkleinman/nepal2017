@@ -64,3 +64,11 @@ Free Wordpress.com accounts have limits on file storage associated with your blo
 You can run Wordpress.org locally on your own computer without a hosted account. This is useful for designing and developing your blog before you make it visible on the internet.
 
 For a more detailed account of the differences between the two types of Wordpress, see [https://startbloggingonline.com/wordpress-com-vs-wordpress-org-whats-the-difference/](https://startbloggingonline.com/wordpress-com-vs-wordpress-org-whats-the-difference/).
+
+## Pedagogical Issues
+
+When using Wordpress for teaching, there are some important pedagogical issues. Under what circumstances do we want our students making their work public on the internet? Is Wordpress.com a suitable platform?
+
+A variant of asking students to sign up and create their own sites on Wordpress.com is to host a network of sites yourself using the Wordpress [Multistites](https://codex.wordpress.org/Create_A_Network) feature. An easy way to deploy this is to create a separate blog for each of your classes and have your students sign up as users. But you could actually create a separate blog for each of your students in the network. Either way, you ultimately have ownership of the site and can delete it (or parts of it) at the end of the academic year if you don't want the material permanently on the internet.
+
+There is no clear pedagogical practice, but it is worth discussing what issues student blogging raises and looking critically at the infrastructure and implementation that enables this type of work. 
