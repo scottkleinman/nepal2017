@@ -3,3 +3,4 @@
 ## Contents
 
 - [Tools and Resources](tools_and_resources.md)
+- [Workshop 1](workshop1.md)
