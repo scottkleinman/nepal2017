@@ -4,7 +4,7 @@ The basic instructions for installing Wordpress are [here](https://codex.wordpre
 
 ## Start by getting all the software in place
 
-1. Download and install XAMPP. On Windows, you should install XAMPP to `C:\xampp`. If you have a Mac, your `xampp` folder can go anywhere; just remove `C:\` from the instructions below.
+1. [Download and install XAMPP](https://www.apachefriends.org/download.html) (**Make sure to scroll down for the version for your operating system**). On Windows, you should install XAMPP to `C:\xampp`. If you have a Mac, your `xampp` folder can go anywhere; just remove `C:\` from the instructions below.
 2. Open the XAMPP control panel. In Windows, hold down the Windows key and press `Q` to search for `XAMPP control panel`. On a Mac, search for `manager-osx`. Start the Apache server service and the MySQL service (the database). When you are done playing with Wordpress, return to the control panel and stop these services.
 3. Go to `C:\xampp\htdocs` and create a new folder called "myblog" (or whatever you want your blog to be called).
 4. Download load Wordpress and extract the zip archive. Copy all the files and folders in the extracted wordpress folder to `C:\xampp\htdocs\myblog`.
