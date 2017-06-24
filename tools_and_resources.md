@@ -1,6 +1,6 @@
 # Digital Humanities Tools and Resources for Nepal 2017
 
-**Last update:** 20 May 2017
+**Last update:** 23 June 2017
 
 ## Introduction
 
@@ -22,11 +22,49 @@ Creating local DH communities is also important. One way to do this is to organi
 
 [The Humanist Listserv](http://dhhumanist.org/membership_form.php)
 
-The DH community _lives_ on Twitter. See the Social Media section for accounts to follow.
+Twitter is probably the best way to learn about DH. Follow some prominent DH personalities or projects, and click on the links they provide.
 
-### General DH Tools and Resources
+- [@dhnow](https://twitter.com/dhnow) (the Twitter handle for _Digital Humanities Now_) 
+- [@GlobalOutlookDH](https://twitter.com/GlobalOutlookDH)
+- [@DHanswers](http://t.co/17ICbfGPjS)
+
+If you follow these, Twitter will suggest other accounts to follow. You can also try reading hashtags like [#dh](https://twitter.com/search?q=%23dh&src=typd) and [#digitalhumanities](https://twitter.com/search?q=%23digitalhumanities&src=typd). See also the DH Slack channel under **Team Communication Tools** below.
+
+Many DH scholars have blogs on which they discuss ongoing research (links to new posts will often be posted on Twitter). Here are some examples:
+
+- [Dan Cohen](http://www.dancohen.org/)
+- [Kathleen Fitzpatrick](http://www.plannedobsolescence.net/)
+- [Mark Sample](http://www.samplereality.com/)
+- [Tom Scheinfeldt](http://foundhistory.org/)
+- [Miriam Posner](http://miriamposner.com/blog/)
+- [Ted Underwood](https://tedunderwood.com/)
+- [Ben Schmidt](http://sappingattention.blogspot.com/)
+- [Matthew Jockers](http://www.matthewjockers.net/)
+- [Scott Weingart](http://scottbot.net/)
+- [Stephen Ramsay](http://stephenramsay.us/)
+- [Julia Flanders](https://juliaflanders.wordpress.com/)
+- [Bethany Nowviskie](http://nowviskie.org/)
+- [Melissa Terras](https://melissaterras.org/)
+- [Brian Croxall](http://www.briancroxall.net/)
+- [Roopika Risam](http://roopikarisam.com/)
+
+The list below provides a few introductory readings in book form. Our Google Drive bibliography has many more readings.
+
+- [Debates in the Digital Humanities](http://dhdebates.gc.cuny.edu/)
+- [A Companion to Digital Humanities](http://www.digitalhumanities.org/companion/)
+- [A New Companion to Digital Humanities, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-1118680596.html) (may be available online with institutional access)
+
+## General DH Tools and Resources
 
 It is not possible to list all tools used for DH study. A good place to find them is in the [DiRT (Digital Research Tools) Directory](https://dirtdirectory.org/). Alan Liu's [Digital Toy Chest](http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244319/Digital%20Humanities%20Tools) is another option.
+
+## Examples of DH Projects
+
+See [Alan Liu's list](http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244444/Digital%20Humanities%20Examples) and Miram Posner's ["How did they make that?""](http://miriamposner.com/blog/how-did-they-make-that/).
+
+## Demo Corpora (Text Collections Ready for Use)
+
+See [Alan Liu's cultivated collection](http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244469/Data%20Collections%20and%20Datasets).
 
 ## Text Editors
 
@@ -47,7 +85,7 @@ Just click the download link, and then double-click the installation icon in you
 
 "Office software" refers to suites of productivity tools, the most important of which are word processors and spreadsheet programs. The most common suite is Microsoft Office, which includes Word and Excel. If users do not have Microsoft Office, there are a number of free options, including [LibreOffice](https://www.libreoffice.org/download/download/). Increasingly, Google's suite of tools in Google Drive is becoming a viable alternative, although you need a Google account. See discussion under Collaboration Tools for setting this up.
 
-## Bibliography
+## Bibliography Tools
 
 [Zotero](https://www.zotero.org/) is an online bibliography database which has the ability to ingest bibliographical references straight from the web and to format references according to common citation guidelines (e.g. MLA, Chicago, APA). Instructions for installing Zotero can be found [here](https://www.zotero.org/support/installation). Zotero is also a useful tool for maintaining collaborative bibliographies. You can set up a free account and create group bibliographies online.
 
@@ -117,12 +155,14 @@ For other types of text analysis, you will generally need to use a programming l
 
 ### Python
 
-Python is a programming language that is relatively easy to learn. It is particularly popular with the data science, machine learning, and natural language processing communities, which have considerable overlap with DH. There are many ways to install Python on your system. I recommend the [Anaconda](https://www.continuum.io/downloads) distribution, which comes with many of the modules you will need for DH research.
+Python is a programming language that is relatively easy to learn. It is particularly popular with the data science, machine learning, and natural language processing communities, which have considerable overlap with DH. There are many ways to install Python on your system. I recommend the [Anaconda](https://www.continuum.io/downloads) distribution, which comes with many of the modules you will need for DH research. Before you download, read the warnings below or you will destroy your computer.
 
-> #### Which version of Python should I download?
-> There is no right answer two this question. Version 2.7 is the stable version and is generally a good option. If you want to run Lexos locally, you should have Python 2.7. Python 3 is slightly different. In the future, most applications will be written in Python 3, but it will not be standard for some time. Luckily, Anaconda makes it possible to run both at the same time. I suggest starting with Python 2.7 and adding Python 3 if you need it. If you are installing Lexos, it is best to do it in tandem with installing Anaconda. Complete installation instructions are [here](https://github.com/WheatonCS/Lexos/tree/master/0_InstallGuides).
+> #### Anaconda warnings
+> OK, you won't really destroy your computer, but it was the best way I could think of to get you to read this. When installing Anaconda, you must follow these directions exactly or you will find that it doesn't work. Before anything else, you must make sure that you download the correct version. **Do not automatically download the latest version until you have read this!** You will most likely want to install Version 2.7 of Python. This is the stable version and is generally a good option. Python 3 (probably something like Python 3.6) is slightly dialect of the language, which will become the dominant version in the future. It is possibly to have both versions on your machine, but instructions for doing that lie outside the scope of this document. At present, most DH tools and tutorials use Python 2.7, so use that version unless youhave a good reason not to. If you are installing Lexos, it is best to do it in tandem with installing Anaconda. Complete installation instructions are [here](https://github.com/WheatonCS/Lexos/tree/master/0_InstallGuides).
 
-Installation of Anaconda is fairly straightforward. Just locate the installer for your system (see link above), download it,  and double-click it. Once it has finished installing, open a terminal (Mac) or command prompt (Windows). Type python `print("hello")` and hit `Enter`. Make sure you use straight quotes, not curly/smart quotes. If you get "hello" printed back to you, the Python installation was successful.
+Installation of Anaconda is fairly straightforward. Just locate the installer for your system (see link above), download it, and double-click it. **Note: The installation location is not important; however, make sure that you leave the option to Update the PATH variable checked. This will ensure that Windows knows where it is when you access Python.** This is especially important if you already have a different version of Python installed.
+
+Once it has finished installing, open a terminal (Mac) or command prompt (Windows). Type python `print("hello")` and hit `Enter`. Make sure you use straight quotes, not curly/smart quotes. If you get "hello" printed back to you, the Python installation was successful.
 
 Anaconda comes with many of the Python libraries (also known as "modules" or "packages") you may need. You can find a complete list of pre-installed packages [here](https://docs.continuum.io/anaconda/pkg-docs). If you need to install a package such as `chardet`, which is not included by default, open a command prompt and type `conda install chardet`. If the name of the package is not in the list type `pip install package_name` will work in most cases. Generally, tools like Lexos will list which packages they require in their documentation.
 
@@ -184,37 +224,9 @@ Application Programming Interfaces (APIs) are set up by organisations that host 
 
 If you are using a hosted service, they may have Wordpress pre-installed or have a one-click installation process. If you want to develop locally or install Wordpress yourself, it is not hard. If you are developing on your own computer, install XAMPP (see under PHP). Download Wordpress [here](https://wordpress.org/download/). Unzip it and place the Wordpress folder inside your “htdocs” folder. Make sure that MySQL is running in the XAMPP control panel (MySQL is the database used by Wordpress). Then follow the installation instructions [here](https://codex.wordpress.org/Installing_WordPress). When you finish, you should have a working version of Wordpress that has none of the restrictions of Wordpress.com. Once you have configured it the way you want, you can copy it to an internet-facing server. If you are starting on a hosted service, you normally just unzip the files there.
 
-### Social Media
-
-Twitter is probably the best way to learn about DH. Follow some prominent DH personalities or projects, and click on the links they provide. Here are some accounts to follow (not exhaustive): [TBD].
-
-Many DH scholars have blogs on which they discuss ongoing research (links to new posts will often be posted on Twitter). Here are some examples:
-
-- [Dan Cohen](http://www.dancohen.org/)
-- [Kathleen Fitzpatrick](http://www.plannedobsolescence.net/)
-- [Mark Sample](http://www.samplereality.com/)
-- [Tom Scheinfeldt](http://foundhistory.org/)
-- [Miriam Posner](http://miriamposner.com/blog/)
-- [Ted Underwood](https://tedunderwood.com/)
-- [Ben Schmidt](http://sappingattention.blogspot.com/)
-- [Matthew Jockers](http://www.matthewjockers.net/)
-- [Scott Weingart](http://scottbot.net/)
-- [Stephen Ramsay](http://stephenramsay.us/)
-- [Julia Flanders](https://juliaflanders.wordpress.com/)
-- [Bethany Nowviskie](http://nowviskie.org/)
-- [Melissa Terras](https://melissaterras.org/)
-- [Brian Croxall](http://www.briancroxall.net/)
-
-(Needs some non US-based additions)
-
-For lack of a better place, here are some book resources:
-- [Debates in the Digital Humanities](http://dhdebates.gc.cuny.edu/)
-- [A Companion to Digital Humanities](http://www.digitalhumanities.org/companion/)
-- [A New Companion to Digital Humanities, 2nd Edition](http://www.wiley.com/WileyCDA/WileyTitle/productCd-1118680596.html) (may be available online with institutional access)
-
 ### Visualisation Tools
 
-- [Gephi](https://gephi.org/) for network visualisation. See [Miriam Posner's guide to using Gephi](http://miriamposner.com/dh101f14/wp-content/uploads/2014/11/Creating-a-Network-Graph-with-Gephi.pdf).
+- [Gephi](https://gephi.org/) for network visualisation. See [Miriam Posner's guide to using Gephi](http://miriamposner.com/dh101f14/wp-content/uploads/2014/11/Creating-a-Network-Graph-with-Gephi.pdf). Other Gephi resources are [here](http://literaturegeek.com/2013/09/09/dataintogephi) and [here](https://dh.rutgers.edu/networks/).
 - [Palladio](https://gephi.org/) for network visualisation
 - [Voyant Tools](http://voyant-tools.org/)
 - [Lexos](http://lexos.wheatoncollege.edu/)
@@ -229,10 +241,13 @@ For lack of a better place, here are some book resources:
 - [TEI by Example](http://teibyexample.org/)
 - [TEI Boilerplate](http://dcl.ils.indiana.edu/teibp/)
 - [Catalogue of Digital Editions](https://dig-ed-cat.acdh.oeaw.ac.at/)
+- [TAPAS](http://tapasproject.org/) has numerous examples of digital editions produced using TEI
 
-### Resources for Gephi
-- http://literaturegeek.com/2013/09/09/dataintogephi
-- https://dh.rutgers.edu/networks/
+### DH Syllabi and Inspiration
 
+- https://eadh.org/education/dh-curricula-syllabi
+- http://miriamposner.com/blog/how-did-they-make-that/
+- http://dhdebates.gc.cuny.edu/debates/2 (2016 edition)
+- http://dhdebates.gc.cuny.edu/debates/1 (2012 edition)
 
 
