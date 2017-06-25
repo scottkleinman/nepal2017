@@ -25,6 +25,7 @@ Creating local DH communities is also important. One way to do this is to organi
 Twitter is probably the best way to learn about DH. Follow some prominent DH personalities or projects, and click on the links they provide.
 
 - [@dhnow](https://twitter.com/dhnow) (the Twitter handle for _Digital Humanities Now_) 
+- [@dhumanities_rr](https://twitter.com/dhumanities_rr) (another aggregator of DH content on Twitter)
 - [@GlobalOutlookDH](https://twitter.com/GlobalOutlookDH)
 - [@DHanswers](http://t.co/17ICbfGPjS)
 
