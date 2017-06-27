@@ -1,6 +1,6 @@
 # Digital Humanities Tools and Resources for Nepal 2017
 
-**Last update:** 23 June 2017
+**Last update:** 27 June 2017
 
 ## Introduction
 
