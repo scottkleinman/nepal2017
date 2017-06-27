@@ -108,6 +108,8 @@ Google Drive comes with [Google Hangouts](https://hangouts.google.com/), in whic
 
 These tools are something like combinations of all of the above, plus Twitter and Facebook. When you are working on a specific project, they faciliate communication between your team. The most well-known tool is [Slack](https://slack.com/is). Even if you do not have a project where you can use Slack, it is worth getting an account because there is an active Slack DH community. For more information, see Amanda Visconti's ["How the Digital Humanities uses Slack to support and build a geographically dispersed intellectual community"](http://literaturegeek.com/2016/07/13/digital-humanities-slack-london-school-economics). To join, provide your e-mail address [here](http://tinyurl.com/DHslack).
 
+**There is now a DHNepal Slack Team:** [https://dhnepal.slack.com](https://dhnepal.slack.com).
+
 The major complaint users have about Slack is that free accounts only allow you to retain access to the 10,000 most recent posts. If that is an issue, [Ryver](https://ryver.com/) is alternative which does not place that limitation, and my students have used it successfully to communicate for group projects.
 
 There are also applications for project management, of which [Trello](https://trello.com/) is a popular option. I have generally found Slack and Ryver more useful, but Trello is particularly good at scheduling and setting benchmarks and milestones.
